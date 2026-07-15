@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url("C:\Users\maddu\Downloads\hospital-bg.png") no-repeat center center;
+    background-size:cover;
+}
+
+.login-container{
+    width:420px;
+    background:rgba(255,255,255,0.94);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 35px rgba(0,0,0,.35);
+    backdrop-filter:blur(8px);
+    text-align:center;
+}
+
+.logo{
+    font-size:65px;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#1565c0;
+    margin-bottom:8px;
+    font-size:32px;
+}
+
+.subtitle{
+    color:#555;
+    margin-bottom:25px;
+    font-size:16px;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    margin:12px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    transition:.3s;
+}
+
+input:focus{
+    outline:none;
+    border-color:#1976d2;
+    box-shadow:0 0 8px rgba(25,118,210,.3);
+}
+
+button{
+    width:100%;
+    padding:15px;
+    margin-top:15px;
+    border:none;
+    border-radius:8px;
+    background:#1976d2;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0d47a1;
+}
+
+.register{
+    margin-top:25px;
+    color:#444;
+}
+
+.register a{
+    color:#1976d2;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.register a:hover{
+    text-decoration:underline;
+}
+
+.footer{
+    margin-top:25px;
+    font-size:13px;
+    color:#666;
+}
